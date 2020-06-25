@@ -13,7 +13,7 @@ The main and only command is `raspberry` alias `rpi`. The syntax of that command
 - `mode` is needed if the action is `get` or `set`. It can be true `(1 / one / true / on)` or false `(0 / zero / false / off)`.
 
 ## Notes
-*Usually, when I publish an open-source bot, I provide an instance of the bot that you can invite on your server. I do have a bot running this script on my raspberry, but I'm not going to make it public, simply because my raspberry is connected to essential items in my house. And even if you don't have any malicious intent, I don't want my bedroom lamp to be turned on at 3 in the morning just because we're not in the same timezone :wink: That said, you can still [join my server](https://discord.gg/7qvmeh2) to use a limited private demo.*
+*Usually, when I publish an open-source bot, I provide an instance of the bot that you can invite to your server. I do have a bot running this script on my raspberry, but I'm not going to make it public, simply because my raspberry is connected to essential items in my house. And even if you don't have any malicious intent, I don't want my bedroom lamp to be turned on at 3 in the morning just because we're not in the same timezone :wink: That said, you can still [join my server](https://discord.gg/7qvmeh2) to use a limited private demo.*
 
 ## [MIT License](https://wylarel.com/mit/)
 ```
