@@ -4,6 +4,12 @@
 [![Discord](https://img.shields.io/badge/Chat-Discord-blue)](https://discord.gg/7qvmeh2)
 [![Python](https://img.shields.io/badge/Made%20with-Python-orange)](https://www.python.org/)
 
+## Install
+- For this script to work, it will **have** to run on a [Raspbarry Pi](https://www.raspberrypi.org/). That said, the discord bot will still connect if you are running it on another device, but the commands won't work.
+- The dependancies are `discord` ([discord.py](https://discordpy.readthedocs.io/en/latest/)) and `RPi`, a library installed as default with the raspberry os.
+- You will have to put your [Discord bot token](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token) in the `TOKEN` file, or modify the code to hard code it ([bad practice](https://www.infoworld.com/article/3064355/how-you-might-be-leaking-your-secrets-onto-github.html)).
+- Then, simply run the code with python 3 and it should work :smiley:
+
 ## Usage
 The main and only command is `raspberry` alias `rpi`. The syntax of that command is `raspberry [pin] <get/set/toggle> <mode>`.
 - `pin` is, the pin number according to the GPIO pins table:
