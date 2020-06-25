@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://wylarel.com/mit/)
 [![Discord](https://img.shields.io/badge/Chat-Discord-blue)](https://discord.gg/7qvmeh2)
 [![Python](https://img.shields.io/badge/Made%20with-Python-orange)](https://www.python.org/)
+
 ## Usage
 The main and only command is `raspberry` alias `rpi`. The syntax of that command is `raspberry [pin] <get/set/toggle> <mode>`.
 - `pin` is, the pin number according to the GPIO pins table:
@@ -10,6 +11,9 @@ The main and only command is `raspberry` alias `rpi`. The syntax of that command
 [Simple Guide to the Raspberry Pi GPIO Header](https://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/)
 - `action` is either `get`, `set` or `toggle`.
 - `mode` is needed if the action is `get` or `set`. It can be true `(1 / one / true / on)` or false `(0 / zero / false / off)`.
+
+## Notes
+*Usually, when I publish an open-source bot, I provide an instance of the bot that you can invite on your server. I do have a bot running this script on my raspberry, but I'm not going to make it public, simply because my raspberry is connected to essential items in my house. And even if you don't have any malicious intent, I don't want my bedroom lamp to be turned on at 3 in the morning just because we're not in the same timezone :wink: That said, you can still [join my server](https://discord.gg/7qvmeh2) to use a limited private demo.*
 
 ## [MIT License](https://wylarel.com/mit/)
 ```
